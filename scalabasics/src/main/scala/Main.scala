@@ -1,6 +1,0 @@
-import sbt._
-
-object Main extends App {
-     Console.println("Hello World: " + (args mkString ", "))
-    }
-
