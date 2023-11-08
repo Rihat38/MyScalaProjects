@@ -1,6 +1,6 @@
 package lectures.week1basics
 
-object Functions extends App {
+object Functions {
   def aPerson(name: String, surname: String): String = {
     s"Hello, $name $surname, nice to meet you in Scala!"
   }

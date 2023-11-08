@@ -14,6 +14,10 @@ object StringOperations {
   println("abcd".reverse) // input dcba
   println("abcd".take(2)) // input ab
 
+  println('1' +: "42" :+ '3') // выводит 1423
+  println('a' +: "bc" :+ 'd') // abcd
+  println("a" ++ "bc" :++ "d") // abcd
+  
   val aNumber = "42".toInt
   println(aNumber.getClass) // input Int
 
